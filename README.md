@@ -23,7 +23,7 @@ Pre-Release
 ---
 
 ## Build
-このプロジェクトは **MinHook** を使用しています。
+このプロジェクトは **MinHook** を使用しています。コンパイルにはincludeフォルダ内に **[MinHook.h](https://github.com/TsudaKageyu/minhook/blob/256a4a83df6344ccbddb6c0e15ad89260a3cd279/include/MinHook.h)** 、libフォルダに **[libMinHook.x64.lib](https://github.com/TsudaKageyu/minhook/releases/tag/v1.3.4)** を配置してください。
 ```
 cl UnityPlayerProxy.cpp /std:c++17 /EHsc /LD /Fe:UnityPlayer.dll /I .\include /link user32.lib .\lib\libMinHook.x64.lib /LTCG /MACHINE:X64
 ```
