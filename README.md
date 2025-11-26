@@ -10,9 +10,9 @@ Pre-Release
 ---
 
 ## 動作確認環境
-|OS||ゲームのバージョン|
+|OS|Loader Version|Game Version|
 |:--|:--|:--|
-| Windows 11 (x64) || 1.1.0 |
+| Windows 11 (x64) | 0.0 | 1.1.0, 1.1.1 |
 
 ---
 
